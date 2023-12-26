@@ -1,0 +1,79 @@
+body{
+  background-color: lightslategrey;
+}
+.header{
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1{
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+
+button{
+  font-size: 1.7;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(3, 138, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: yellowgreen;
+}
+
+.add:hover{
+  background-color: darkgreen;
+}
+.delete{
+  background-color: rgb(169, 53, 7);
+}
+
+.delete:hover{
+  background-color: rgb(79, 24, 0);
+}
+.move{
+  background-color: rgb(214, 204, 6);
+}
+
+.move:hover{
+  background-color: rgb(105, 105, 5);
+}
+
+input[type="text"]{
+ font-size: 1.6;
+ padding: 10px;
+ border: 2px solid rgb(105, 74, 74);
+ border-radius: 5px;
+ color: rgb(0, 0, 0)
+}
+
+ol{
+  padding:0%
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: azure;
+  margin-bottom: 10px;
+  border: 3px solid rgb(105, 74, 74);
+  display:flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete, .move{
+  padding: 8px,12px;
+  font-size: 1.4;
+  margin-left: 10px;
+}
